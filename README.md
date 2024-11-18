@@ -66,7 +66,6 @@
 
 ## About The Project
 
-TODO
 This project demonstrates how to implement WebAuthn Enterprise Attestation from a backend relying party, and client application. The primary focus is on the relying party, specifically how to parse the serial number from an enterprise attestation result returned from a YubiKey. The client application provided with the project is meant to provide an easy interface for testing EA capabilities from an EA supported browser (Google Chrome).
 
 The content presented in this demo is meant to compliment the material found within the [Enterprise Attestation](https://developers.yubico.com/WebAuthn/Concepts/Enterprise_Attestation/) section on the Yubico Developer Site.
