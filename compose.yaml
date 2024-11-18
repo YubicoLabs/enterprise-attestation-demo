@@ -1,0 +1,14 @@
+name: ea-demo
+services:
+  java-app:
+    container_name: java-app
+    build: java-app
+    image: java-app
+    ports:
+      - 8080:8080
+  react-app:
+    container_name: react-app
+    build: react-app
+    image: react-app
+    ports:
+      - 3000:3000
